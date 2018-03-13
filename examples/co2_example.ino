@@ -21,6 +21,6 @@ void setup()
 
 void loop()
 {
-	co2Reader.caclulate_co2();
+	co2Reader.calculate_co2();
 	delay(10000);
 }
