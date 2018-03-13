@@ -39,7 +39,7 @@ void Co2Reader::calibrate_end()
     digitalWrite(m_co2_calibrate_pin, LOW);
 }
 
-void Co2Reader::caclulate_co2_concentration()
+void Co2Reader::caclulate_co2()
 {
     m_co2_level = (duration / 1000.0) * 1600.0 + 400;
 }

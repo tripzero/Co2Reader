@@ -9,7 +9,7 @@ public:
 	void stop();
 	void calibrate_begin();
 	void calibrate_end();
-	void caclulate_co2_concentration();
+	void caclulate_co2();
 	int co2_level();
 
 private: //methods
