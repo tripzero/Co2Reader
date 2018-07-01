@@ -35,8 +35,8 @@ void Co2Reader::calibrate_begin()
 
 void Co2Reader::calibrate_end()
 {
-    // pull down the calibration pin:
-    digitalWrite(m_co2_calibrate_pin, LOW);
+    // pull back up the calibration pin:
+    digitalWrite(m_co2_calibrate_pin, HIGH);
 }
 
 void Co2Reader::calculate_co2()
